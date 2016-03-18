@@ -94,9 +94,9 @@ session_start();
                 </td>
             </tr>
 
-    <tr><td></td><td><input class="submit" id='submit' type='button' value='Sign In'></td></tr>
+    <tr><td></td><td><input class="btn" id='submit' type='button' value='Sign In'></td></tr>
     <form class='table1' id='myForm' name = 'myForm' action='OwnerRegistration.php' >
-    <tr><td></td><td><input class="submit" id='submit' type = 'submit' value = 'Register'/></td></tr>
+    <tr><td></td><td><input class="btn" id='submit' type = 'submit' value = 'Register'/></td></tr>
 
 
 
