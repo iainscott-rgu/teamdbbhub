@@ -235,11 +235,11 @@ session_start();
                 $newhtml =
                     <<<NEWHTML
                         <div class="table5">
-<a href="Customerinfo.php"><table border="0" cellpadding="5">
+<table border="0" cellpadding="5">
 <tr>
 <td><strong><img class="bbimages" src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
-<table border="0" cellpadding="5">
+<a href="Customerinfo.php"><table id="table55" border="0" cellpadding="5">
 <tr>
 <td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
 </tr>
