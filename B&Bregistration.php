@@ -119,13 +119,6 @@ session_start();
                     <td><input id="postcode" type="text" class="inputform" name="postcode" placeholder="Enter the Postcode" size="20" maxlength="8" required /></td>
                     <td><label for="email">Email: *</label></td>
                     <td><input id="email" type="text" class="inputform" name="email" placeholder="Enter you Email Address" size="30" maxlength="50" required /></td>
-
-                </tr>
-                <tr>
-                    <td><label for="city">City: *</label></td>
-                    <td><input id="city" type="text" class="inputform" name="city" placeholder=" Enter City" size="20" maxlength="20" required /></td>
-                    <td><label for="latitude">Latitude: *</label></td>
-                    <td><input id="latitude" type="text" class="inputform" name="latitude" placeholder="Enter the Latitude of B&B" size="20" maxlength="20" required /></td>
                     <td><label  for="pets">Pets Allowed: *</label></td>
                     <td><select id="pets" class="inputform" name="pets">
                             <option value="">Select Yes or No</option>
@@ -135,12 +128,19 @@ session_start();
                     </td>
                 </tr>
                 <tr>
+                    <td><label for="city">City: *</label></td>
+                    <td><input id="city" type="text" class="inputform" name="city" placeholder=" Enter City" size="20" maxlength="20" required /></td>
+                    <td><label for="latitude">Latitude: *</label></td>
+                    <td><input id="latitude" type="text" class="inputform" name="latitude" placeholder="Enter the Latitude of B&B" size="20" maxlength="20" required /></td>
+                    <td><label hidden for="ownerid">Owner ID: *</label></td>
+                    <td><input hidden id="ownerid" type="text" class="inputform" name="ownerid" value="<?php echo"".$_SESSION['ownerid'];?>" size="20" maxlength="10" readonly /></td>
+                </tr>
+                <tr>
                     <td><label for="region">Region: *</label></td>
                     <td><input id="region" type="text" class="inputform" name="region" placeholder="Enter Region" size="20" maxlength="30" required /></td>
                     <td><label for="longitude">Longitude: *</label></td>
                     <td><input id="longitude" type="text" class="inputform" name="longitude" placeholder="Enter Longitude of B&B" size="20" maxlength="20" required /></td>
-                    <td><label hidden for="ownerid">Owner ID: *</label></td>
-                    <td><input hidden id="ownerid" type="text" class="inputform" name="ownerid" value="<?php echo"".$_SESSION['ownerid'];?>" size="20" maxlength="10" readonly /></td>
+
                 </tr>
                 <tr>
                     <td colspan="6"><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
