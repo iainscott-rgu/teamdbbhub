@@ -237,7 +237,7 @@ session_start();
                         <div class="table5">
 <a href="Customerinfo.php" id="nodec"><table border="0" cellpadding="5">
 <tr>
-<td><strong><img class="bbimages" src="{$row[imageurl]}" id="img3"></strong></td>
+<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
 <table border="0" cellpadding="5">
 <tr>
