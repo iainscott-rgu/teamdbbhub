@@ -235,7 +235,7 @@ session_start();
                 $newhtml =
                     <<<NEWHTML
                         <div class="table5">
-<table border="0" cellpadding="5">
+<a href="Customerinfo.php"><table border="0" cellpadding="5">
 <tr>
 <td><strong><img class="bbimages" src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
@@ -261,8 +261,7 @@ session_start();
 </table>
 </td>
 </tr>
-</table>
-    <p><a href="Customerinfo.php"><input type="submit" value="BOOK" /></a></p>
+</table></a>
 
 <button style="float:left;" onclick="panToBB($count)">ViewMap</button>
 
@@ -279,7 +278,10 @@ NEWHTML;
 
     </div>
 
+    <section class="spacer" id="spacer">
 
+
+    </section>
 
 <section class="container" id="foot">
 
