@@ -386,9 +386,9 @@ NEWHTML;
 <section class="container2" id="spotlight">
     <nav role="sub2">
     <img src="assets/london.jpg" id="img2">
-    <p>London, England</p>
+    <p>London, England
 
-        <p><form action="searchResultsPage.php" method="POST">
+        <form action="searchResultsPage.php" method="POST">
             <input hidden name="location" value='london'>
             <button class="btn" type="submit" >Click to View</button>
         </form></p>
