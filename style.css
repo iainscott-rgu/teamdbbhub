@@ -72,7 +72,7 @@ h1{
 .table5{
     border: 1px solid orange;
     padding: 25px;
-    background-color: snow;
+    background-color: #f8f8ff;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
@@ -101,7 +101,7 @@ h1{
     text-decoration: none;
 }
 
-#nodec a:HOVER{
+.table5 a:HOVER{
 
     background-color: #666699;
 }
