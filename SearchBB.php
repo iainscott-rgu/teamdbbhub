@@ -388,10 +388,10 @@ NEWHTML;
     <img src="assets/london.jpg" id="img2">
     <p>London, England</p>
 
-        <form action="searchResultsPage.php" method="POST">
+        <p></p><form action="searchResultsPage.php" method="POST">
             <input hidden name="location" value='london'>
             <button class="btn" type="submit" >Click to View</button>
-        </form>
+        </form></p>
 
     <img src="assets/edinburgh.jpg" id="img2">
     <p>Edinburgh, Scotland</p>
