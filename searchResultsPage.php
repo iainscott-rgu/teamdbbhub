@@ -260,7 +260,7 @@ session_start();
 </tr>
 </table></a>
 
-<button style="float:right;" onclick="panToBB($count)">ViewMap</button>
+<button style="float:right;" class="btn" onclick="panToBB($count)">ViewMap</button>
 
 </div>
 

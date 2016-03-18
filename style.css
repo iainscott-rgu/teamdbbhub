@@ -434,6 +434,12 @@ body{
 
 }
 
+.btn{
+
+    border: 1px solid orange;
+    color: orange;
+}
+
 h3{
 
     font-family: 'Roboto', sans-serif;
