@@ -392,9 +392,9 @@ NEWHTML;
     <p>Edinburgh, Scotland</p>
         <form action="searchResultsPage.php" method="POST">
             <input hidden name="location" value='edinburgh'>
-            <button type="submit" >Click to View.</button>
+            <button class="btn" type="submit" >Click to View</button>
         </form>
-    <p><li><strong><a href="#">click to view</a></strong></li></p>
+    <p><li><strong><a href="#"></a></strong></li></p>
         </nav>
 
 
