@@ -458,7 +458,7 @@ body{
     -moz-border-radius: 10px;
     border-radius: 10px;
     float: right;
-
+    font-weight: bold;
 }
 
 .btn3:hover{
