@@ -85,7 +85,7 @@ try{
         $newhtml =
             <<<NEWHTML
 
-                        <div class="table5">
+                        <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
 <td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
@@ -98,7 +98,7 @@ try{
 <td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">Address: <strong>{$row[address]}</strong></td>
+<td colspan="2">Address: <strong>{$row[address]}, {$row[addressline2]}</strong></td>
 </tr>
 <tr>
 <td>Location: <strong>{$row[city]}</strong></td>
