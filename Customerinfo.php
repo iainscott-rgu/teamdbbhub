@@ -112,7 +112,7 @@ try{
 <td>Pets allowed: <strong>{$row[pets]}</strong></td>
 </tr>
 <tr>
-<td>Region: <strong>{$row[telephone]}</strong></td>
+<td>Telephone: <strong>{$row[telephone]}</strong></td>
 <td>Email: <strong>{$row[email]}</strong></td>
 
 </tr>
