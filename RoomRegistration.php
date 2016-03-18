@@ -132,6 +132,7 @@ session_start();
             <tr>
                 <td><label for="roomdescription">Room Description: *</label></td>
                 <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
+                <td><label for="en-suite">En-Suite: *</label></td>
                 <td><select class="inputform" id="en-suite" name="en-suite">
                         <option value="">En-Suite</option>
                         <option value="yes">Yes</option>
@@ -142,17 +143,15 @@ session_start();
             <tr>
                 <td><label for="price">Price: *</label></td>
                 <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
-                <td>
-                                    <label for="imageurl">Image URL: *</label></td>
-                                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
-                                <td hidden><label for="bbid">B&B ID: *</label></td>
-                                <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
-
-                            </tr>
-                            <tr>
-                                <td colspan="4"><p><input type="submit" value="Submit" class="btn3" /></p></td>
-                            </tr>
-                        </table></form>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                <td hidden><label for="bbid">B&B ID: *</label></td>
+                <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
+                </tr>
+            <tr>
+                <td colspan="4"><p><input type="submit" value="Submit" class="btn3" /></p></td>
+                </tr>
+        </table></form>
 
                 </section>
                 <section class="spacer" id="spacer">
