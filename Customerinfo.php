@@ -255,7 +255,7 @@ catch(PDOException $e)
                 <td><input type="text" id="surname" class="inputform" name="surname" placeholder="Enter your Surname" size="20" maxlength="25" required /></td>
             </tr>
             <tr>
-                <td colspan="4"><p align="right" ><input class="btn2" type="submit" value="Continue ->" class="submit" /></p></td>
+                <td colspan="4"><p align="right" ><input class="btn2" type="submit" value="SUBMIT" class="submit" /></p></td>
             </tr>
         </table></form>
 </section>
