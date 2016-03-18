@@ -95,14 +95,14 @@ session_start();
                     <td><label  for="checkin">Check-in Time: *</label></td>
                     <td><select id="checkin" class="inputform" name="checkin">
                             <option value="">Select Check-in Time</option>
-                            <option value="9">09:00</option>
-                            <option value="10">10:00</option>
-                            <option value="11">11:00</option>
-                            <option value="12">12:00</option>
-                            <option value="13">13:00</option>
-                            <option value="14">14:00</option>
-                            <option value="15">15:00</option>
-                            <option value="16">16:00</option>
+                            <option value="9">09:00:00</option>
+                            <option value="10">10:00:00</option>
+                            <option value="11">11:00:00</option>
+                            <option value="12">12:00:00</option>
+                            <option value="13">13:00:00</option>
+                            <option value="14">14:00:00</option>
+                            <option value="15">15:00:00</option>
+                            <option value="16">16:00:00</option>
                         </select>
                     </td>
                 </tr>
@@ -114,14 +114,14 @@ session_start();
                     <td><label  for="checkout">Check-out Time: *</label></td>
                     <td><select id="checkout" class="inputform" name="checkout">
                             <option value="">Select Check-out Time</option>
-                            <option value="9">09:00</option>
-                            <option value="10">10:00</option>
-                            <option value="11">11:00</option>
-                            <option value="12">12:00</option>
-                            <option value="13">13:00</option>
-                            <option value="14">14:00</option>
-                            <option value="15">15:00</option>
-                            <option value="16">16:00</option>
+                            <option value="9">09:00:00</option>
+                            <option value="10">10:00:00</option>
+                            <option value="11">11:00:00</option>
+                            <option value="12">12:00:00</option>
+                            <option value="13">13:00:00</option>
+                            <option value="14">14:00:00</option>
+                            <option value="15">15:00:00</option>
+                            <option value="16">16:00:00</option>
                         </select>
                     </td>
                 </tr>
