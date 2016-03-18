@@ -162,7 +162,7 @@ session_start();
 
                 </tr>
                 <tr>
-                    <td colspan="6"><p><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
+                    <td colspan="6"><p><input type="submit" value="Submit" class="btn3" /></p></td>
                 </tr>
 
             </table></form>
