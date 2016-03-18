@@ -235,7 +235,7 @@ session_start();
                 $newhtml =
                     <<<NEWHTML
                         <div class="table5">
-<a href="Customerinfo.php" id="nodec"><table id="rollo" border="0" cellpadding="5">
+<a href="Customerinfo.php" id="nodec"><table border="0" cellpadding="5">
 <tr>
 <td><strong><img class="bbimages" src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
