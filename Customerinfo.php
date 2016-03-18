@@ -130,6 +130,68 @@ catch(PDOException $e)
 {print"$e";}
 ?>
 
+
+
+
+
+
+
+<?php
+$conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
+$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+try{
+    $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbname] = 'the grange'");
+    foreach($st->fetchAll() as $row) {
+        $newhtml =
+            <<<NEWHTML
+
+                        <div class="table6">
+<table border="0" cellpadding="5">
+<tr>
+<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
+<td>
+<table border="0" cellpadding="5">
+<tr>
+<td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
+</tr>
+<tr>
+<td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
+</tr>
+<tr>
+<td colspan="2">Address: <strong>{$row[address]}, {$row[addressline2]}</strong></td>
+</tr>
+<tr>
+<td>Location: <strong>{$row[city]}</strong></td>
+<td>Postcode: <strong>{$row[postcode]}</strong></td>
+</tr>
+<tr>
+<td>Check-in: <strong>{$row[checkin]}</strong></td>
+<td>Check-out: <strong>{$row[checkout]}</strong></td>
+</tr>
+<tr>
+<td>Pets allowed: <strong>{$row[pets]}</strong></td>
+</tr>
+<tr>
+
+
+
+
+</table>
+</td>
+</tr>
+</table>
+
+</div>
+NEWHTML;
+        print($newhtml);
+    }
+}
+catch(PDOException $e)
+{print"$e";}
+?>
+
+
+
 <section class="spacer" id="spacer">
 
 
