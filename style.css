@@ -624,12 +624,11 @@ div.panel {
 
 }
 
-
-
 body{
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+    min-height: 500px;
 }
 
 div.panel.show {
