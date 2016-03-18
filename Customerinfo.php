@@ -88,7 +88,7 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
+<td><strong><img src="{[B&B]$row[imageurl]}" id="img3"></strong></td>
 <td>
 <table border="0" cellpadding="5">
 <tr>
