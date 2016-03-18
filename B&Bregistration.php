@@ -94,7 +94,7 @@ session_start();
                     <td><input id="bbdescription" type="text" class="inputform" name="bbdescription" placeholder="Enter B&B Description" size="30" maxlength="50" required /></td>
                     <td><label  for="checkin">Check-in Time: *</label></td>
                     <td><select id="checkin" class="inputform" name="checkin">
-                            <option value="">Select Check-in Time</option>
+                            <option value="">Check-in Time</option>
                             <option value="9">09:00:00</option>
                             <option value="10">10:00:00</option>
                             <option value="11">11:00:00</option>
@@ -113,7 +113,7 @@ session_start();
                     <td><input id="telephone" type="text" class="inputform" name="telephone" placeholder="Enter your Telephone Number" size="20" maxlength="20" required /></td>
                     <td><label  for="checkout">Check-out Time: *</label></td>
                     <td><select id="checkout" class="inputform" name="checkout">
-                            <option value="">Select Check-out Time</option>
+                            <option value="">Check-out Time</option>
                             <option value="9">09:00:00</option>
                             <option value="10">10:00:00</option>
                             <option value="11">11:00:00</option>
@@ -140,7 +140,7 @@ session_start();
                     <td><input id="email" type="text" class="inputform" name="email" placeholder="Enter you Email Address" size="30" maxlength="50" required /></td>
                     <td><label  for="pets">Pets Allowed: *</label></td>
                     <td><select id="pets" class="inputform" name="pets">
-                            <option value="">Select Yes or No</option>
+                            <option value="">Yes or No</option>
                             <option value="Yes">Yes</option>
                             <option value="No">No</option>
                         </select>
