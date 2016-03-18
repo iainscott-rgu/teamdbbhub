@@ -107,7 +107,7 @@ session_start();
                 <td><select id="bbname" class="inputform" name="bbname"><option value="<?php echo"".$bb ?>"><?php echo"".$bb ?></option></td>
                 <td><label for="nbrofpeople">Room Sleeps: *</label></td>
                 <td><select class="inputform" id="nbrofpeople" name="nbrofpeople">
-                        <option value="">Select Occupant Nbr</option>
+                        <option value="">Room Capacity</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -117,27 +117,32 @@ session_start();
                     </select>
                 </td>
             </tr>
-
-                            <tr>
-                            <td><label for="roomname">Room Name: *</label></td>
-                            <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter Room Name" size="20" maxlength="25" required /></td>
-
-                           </tr>
-                            <tr>
-                                <td><label for="roomdescription">Room Description: *</label></td>
-                                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
-
-
-
-
-
-                            </tr>
-                            <tr>
-                                <td><label for="price">Price: *</label></td>
-                                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
-
-
-                                <td>
+            <tr>
+                <td><label for="roomname">Room Name: *</label></td>
+                <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter Room Name" size="20" maxlength="25" required /></td>
+                <td><label for="roomtype">Room Type: *</label></td>
+                <td><select class="inputform" id="roomtype" name="roomtype">
+                        <option value="">Room Type</option>
+                        <option value="single">Single Room</option>
+                        <option value="double">Double Room</option>
+                        <option value="family">Family Room</option>
+                    </select>
+                </td>
+                     </tr>
+            <tr>
+                <td><label for="roomdescription">Room Description: *</label></td>
+                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
+                <td><select class="inputform" id="en-suite" name="en-suite">
+                        <option value="">En-Suite</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </td>
+                      </tr>
+            <tr>
+                <td><label for="price">Price: *</label></td>
+                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
+                <td>
                                     <label for="imageurl">Image URL: *</label></td>
                                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
                                 <td hidden><label for="bbid">B&B ID: *</label></td>
