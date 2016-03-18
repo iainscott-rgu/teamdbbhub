@@ -65,7 +65,7 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>You're almost there... please enter your details to complete your booking</p>
+        <p>You're B&B</p>
     </div>
 </section>
 
@@ -132,6 +132,18 @@ catch(PDOException $e)
 
 
 
+<section class="spacer" id="spacer">
+
+
+</section>
+
+<section class="container" id="featured">
+    <div class="centre">
+
+        <p>Room info...</p>
+    </div>
+</section>
+
 
 
 
@@ -195,6 +207,14 @@ catch(PDOException $e)
 <section class="spacer" id="spacer">
 
 
+</section>
+
+
+<section class="container" id="featured">
+    <div class="centre">
+
+        <p>You're almost there... please enter your details to complete your booking</p>
+    </div>
 </section>
 
 
