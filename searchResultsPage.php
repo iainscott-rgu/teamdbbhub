@@ -235,13 +235,13 @@ session_start();
                 $newhtml =
                     <<<NEWHTML
                         <div class="table5">
-<a href="Customerinfo.php"><table border="0" cellpadding="5">
+<a href="Customerinfo.php"><table class="nodec" border="0" cellpadding="5">
 <tr>
 <td><strong><img class="bbimages" src="{$row[imageurl]}" id="img3"></strong></td>
 <td>
-<table border="0" cellpadding="5">
+<table class="nodec" border="0" cellpadding="5">
 <tr>
-<td colspan="2" class="nodec">B&B Name: <strong>{$row[bbname]}</strong></td>
+<td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
 <td colspan="2">Address: <strong>{$row[address]}</strong></td>
