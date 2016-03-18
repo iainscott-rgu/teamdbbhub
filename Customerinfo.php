@@ -80,7 +80,7 @@ session_start();
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
-    $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbname] = 'the grange'");
+    $st = $conn-> query("SELECT * FROM [B&B],[room],[images] WHERE [bbname] = 'the grange'");
     foreach($st->fetchAll() as $row) {
         $newhtml =
             <<<NEWHTML
@@ -111,7 +111,11 @@ try{
 <tr>
 <td>Pets allowed: <strong>{$row[pets]}</strong></td>
 </tr>
-</h6>
+<tr>
+
+
+
+
 </table>
 </td>
 </tr>
