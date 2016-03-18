@@ -244,9 +244,6 @@ session_start();
 <td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
-</tr>
-<tr>
 <td colspan="2">Address: <strong>{$row[address]}</strong></td>
 </tr>
 <tr>
@@ -270,8 +267,7 @@ session_start();
 <button style="float:left;" onclick="panToBB($count)">ViewMap</button>
 
 </div>
- <section class="spacer" id="spacer">
-    </section>
+
 NEWHTML;
                 print($newhtml);
                 $count++;
