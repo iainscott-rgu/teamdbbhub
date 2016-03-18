@@ -394,7 +394,7 @@ NEWHTML;
             <input hidden name="location" value='edinburgh'>
             <button class="btn" type="submit" >Click to View</button>
         </form>
-    <p><li><strong><a href="#"></a></strong></li></p>
+
         </nav>
 
 
