@@ -22,8 +22,6 @@ session_start();
             type="text/javascript"></script>
     <script type="text/javascript">
         //<![CDATA[
-
-     /*
         var customIcons = {
             restaurant: {
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
@@ -32,9 +30,6 @@ session_start();
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
             }
         };
-
-*/
-
 
         function load(mapreq) {
 
