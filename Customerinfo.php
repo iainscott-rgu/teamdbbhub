@@ -76,17 +76,15 @@ session_start();
 
 
 
-
 <?php
-$bbid = $_POST['location'];
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
-    $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbid] = '$bbid'");
-
+    $st = $conn-> query("SELECT * FROM [B&B] WWHERE [bbid] = '2'");
     foreach($st->fetchAll() as $row) {
         $newhtml =
             <<<NEWHTML
+
                         <div class="table5">
 <table border="0" cellpadding="5">
 <tr>
@@ -117,23 +115,13 @@ try{
 </table>
 
 </div>
-
 NEWHTML;
         print($newhtml);
-
     }
 }
 catch(PDOException $e)
 {print"$e";}
 ?>
-
-
-
-
-
-
-
-
 
 
 
