@@ -306,6 +306,8 @@ main{
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
+    width:200px;
+    height:200px;
 }
 
 
@@ -592,10 +594,3 @@ div.panel.show {
     height: 200px;
 }
 
-
-.bbimages {
-
-    width:200px;
-    height:200px;
-
-}
