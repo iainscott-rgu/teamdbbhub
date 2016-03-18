@@ -412,7 +412,7 @@ NEWHTML;
             <form action="searchResultsPage.php" method="POST">
                 <input hidden name="location" value='glasgow'>
                 <button class="btn" type="submit" >Click to View</button>
-            </form>
+            </form><p>&nbsp;</p>
 
         <img src="assets/Aberdeen.jpg" id="img2">
         <p>Aberdeen, Scotland</p>
@@ -431,7 +431,7 @@ NEWHTML;
             <form action="searchResultsPage.php" method="POST">
                 <input hidden name="location" value='dundee'>
                 <button class="btn" type="submit" >Click to View</button>
-            </form>
+            </form><p>&nbsp;</p>
             <img src="assets/manchester.jpg" id="img2">
         <p>Manchester, England</p>
             <form action="searchResultsPage.php" method="POST">
