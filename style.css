@@ -436,9 +436,15 @@ body{
 
 .btn{
 
-    border: 1px solid orange;
+    border: 1px solid #666699;
     color: #666699;
     background-color: snow;
+}
+
+.btn:hover{
+    border: 1px solid orange;
+    color: orange;
+
 }
 
 h3{
