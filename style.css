@@ -470,7 +470,7 @@ ul#tabs li {
 }
 ul#tabs li a {
     /*color: #42454a;*/
-    color: #666699;
+    color: orange;
     background-color: #dedbde;
     border: 1px solid orange;
     border-bottom: none;
@@ -499,7 +499,7 @@ div.tabContent {
     -webkit-border-radius: 0px 10px 10px 10px !important;
     -khtml-border-radius: 0px 10px 10px 10px !important;
     border-radius: 0px 10px 10px 10px !important;
-
+    color: orange;
 }
 div.tabContent.hide {
     display: none;
