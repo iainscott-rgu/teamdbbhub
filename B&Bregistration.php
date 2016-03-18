@@ -92,19 +92,38 @@ session_start();
                     <td><input id="bbname" type="text" class="inputform" name="bbname" placeholder="Enter B&B Name" size="20" maxlength="30" required /></td>
                     <td><label for="bbdescription">B&B Description: *</label></td>
                     <td><input id="bbdescription" type="text" class="inputform" name="bbdescription" placeholder="Enter B&B Description" size="30" maxlength="50" required /></td>
-                    <td><label for="checkin">Check-in Time: *</label></td>
-                    <td><input id="checkin" type="text" class="inputform" name="checkin" placeholder="Enter the Check-in Time" required /></td>
+                    <td><label  for="checkin">Check-in Time: *</label></td>
+                    <td><select id="checkin" class="inputform" name="checkin">
+                            <option value="">Select Check-in Time</option>
+                            <option value="9">09:00</option>
+                            <option value="10">10:00</option>
+                            <option value="11">11:00</option>
+                            <option value="12">12:00</option>
+                            <option value="13">13:00</option>
+                            <option value="14">14:00</option>
+                            <option value="15">15:00</option>
+                            <option value="16">16:00</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
-
                     <td><label for="address">Address: *</label></td>
                     <td><input id="address" type="text" class="inputform" name="address" placeholder="Enter the first line of the Address" size="30" maxlength="50" required /></td>
                     <td><label for="telephone">Telephone: *</label></td>
                     <td><input id="telephone" type="text" class="inputform" name="telephone" placeholder="Enter your Telephone Number" size="20" maxlength="20" required /></td>
-                    <td><label for="checkout">Check-out Time: *</label></td>
-                    <td><input id="checkout" type="text" class="inputform" name="checkout" placeholder="Enter the Check-out Time" size="20" maxlength="10" required /></td>
-
-
+                    <td><label  for="checkout">Check-out Time: *</label></td>
+                    <td><select id="checkout" class="inputform" name="checkout">
+                            <option value="">Select Check-out Time</option>
+                            <option value="9">09:00</option>
+                            <option value="10">10:00</option>
+                            <option value="11">11:00</option>
+                            <option value="12">12:00</option>
+                            <option value="13">13:00</option>
+                            <option value="14">14:00</option>
+                            <option value="15">15:00</option>
+                            <option value="16">16:00</option>
+                        </select>
+                    </td>
                 </tr>
                 <tr>
                     <td><label for="address2">Address Line 2: *</label></td>
