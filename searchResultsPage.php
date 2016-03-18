@@ -241,7 +241,7 @@ session_start();
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td colspan="2" class="nodec">B&B Name: <strong>{$row[bbname]}</strong></td>
+<td colspan="2" id="nodec">B&B Name: <strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
 <td colspan="2">Address: <strong>{$row[address]}</strong></td>
