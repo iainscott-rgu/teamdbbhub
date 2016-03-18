@@ -184,7 +184,9 @@ try{
 <tr>
 <td>En-Suite: <strong>{$row[En-Suite]}</strong></td>
 </tr>
-<tr>
+ <tr>
+                <td colspan="4"><p align="right" ><input id="submit" type="submit" value="SELECT" class="submit" /></p></td>
+            </tr>
 
 
 
