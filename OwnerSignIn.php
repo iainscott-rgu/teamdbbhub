@@ -86,11 +86,11 @@ session_start();
 
             <tr><td>
                 <label for='email'>Email: *</label></td>
-                <td><input type='text' class='inputform' id='email' name='email' placeholder='email' size='30' maxlength='50' required /></td>
+                <td><input type='text' class='inputform' id='email' name='email' placeholder='Enter Email' size='30' maxlength='50' required /></td>
             </tr>
             <tr>
                 <td><label for='password'>Password: *</label></td>
-                <td>    <input type='password' class='inputform' id='password' name='password' placeholder='enter password' required>
+                <td>    <input type='password' class='inputform' id='password' name='password' placeholder='Enter password' size='20' maxlength='30' required>
                 </td>
             </tr>
 

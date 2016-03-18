@@ -17,7 +17,7 @@ session_start();
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
      <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>PHP/MySQL & Google Maps Example</title>
+    <title>Search Results: theB&Bhub</title>
     <script src="https://maps.googleapis.com/maps/api/js"
             type="text/javascript"></script>
     <script type="text/javascript">
