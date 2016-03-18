@@ -95,6 +95,9 @@ try{
 <td colspan="2" id="nodec">B&B Name: <strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
+<td colspan="2" id="nodec">B&B Description: <strong>{$row[bbdescription]}</strong></td>
+</tr>
+<tr>
 <td colspan="2">Address: <strong>{$row[address]}</strong></td>
 </tr>
 <tr>
