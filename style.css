@@ -449,6 +449,23 @@ body{
     color: orange;
 }
 
+.btn3{
+    border: 1px solid #666699;
+    color: #666699;
+    background-color: snow;
+    width: 5em;  height: 2em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    float: right;
+}
+
+.btn3:hover{
+    border: 1px solid orange;
+    color: orange;
+}
+
+
 .btn{
 
     border: 1px solid #666699;
