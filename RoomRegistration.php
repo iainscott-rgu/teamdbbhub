@@ -108,16 +108,18 @@ session_start();
                         <option value="<?php echo"".$bb ?>"><?php echo"".$bb ?></option></td>
 
                             <tr>
+                            <td><label for="roomname">Room Name: *</label></td>
+                            <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter Room Name" size="20" maxlength="25" required /></td>
 
-                                <td hidden><label for="bbid">B&B ID: *</label></td>
+                            <td hidden><label for="bbid">B&B ID: *</label></td>
                                 <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
-                                <td><label for="price">Price: *</label></td>
-                                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
-
-                            </tr>
+                                 </tr>
                             <tr>
-                                <td><label for="roomname">Room Name: *</label></td>
-                                <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter Room Name" size="20" maxlength="25" required /></td>
+                                <td><label for="roomdescription">Room Description: *</label></td>
+                                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
+
+
+
 
                                 <td>
                                     <label for="nbrofpeople">Room Sleeps: *</label></td>
@@ -133,9 +135,9 @@ session_start();
                                 </td>
                             </tr>
                             <tr>
+                                <td><label for="price">Price: *</label></td>
+                                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
 
-                                <td><label for="roomdescription">Room Description: *</label></td>
-                                <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
 
                                 <td>
                                     <label for="imageurl">Image URL: *</label></td>
