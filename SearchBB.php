@@ -221,7 +221,7 @@ NEWHTML;
            <tr>
                <td colspan="4">
 
-              <a href="searchResultsPage.php"><input class="btn2" class="submit" type="submit" value="SEARCH"  /></a></td>
+              <a href="searchResultsPage.php"><input class="btn2" type="submit" value="SEARCH"  /></a></td>
           </tr>
       </table>
     </form>
