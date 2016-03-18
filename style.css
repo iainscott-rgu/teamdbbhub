@@ -101,6 +101,11 @@ h1{
     text-decoration: none;
 }
 
+.table5 a:HOVER{
+
+    background-color: #666699;
+}
+
 .tablejava td{
 
     padding-right: 75px;
