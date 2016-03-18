@@ -388,7 +388,7 @@ NEWHTML;
     <img src="assets/london.jpg" id="img2">
     <p>London, England</p>
 
-        <p></p><form action="searchResultsPage.php" method="POST">
+        <p><form action="searchResultsPage.php" method="POST">
             <input hidden name="location" value='london'>
             <button class="btn" type="submit" >Click to View</button>
         </form></p>
