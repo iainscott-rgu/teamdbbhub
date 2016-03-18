@@ -223,7 +223,7 @@ catch(PDOException $e)
 
     <form>
 
-        <table class="table3">
+        <table class="table6">
 
             <tr><td class="small"><p>* Required Fields</p></td></tr>
             <tr><td>
@@ -236,21 +236,13 @@ catch(PDOException $e)
                         <option value="Ms">Ms</option>
                     </select>
                 </td>
-
-
                 <td>
                     <label for="email">Email: *</label></td>
                 <td><input type="text" id="email" class="inputform" name="email" placeholder="email" size="30" maxlength="50" required /></td>
-
-
-
-
             </tr>
             <tr>
                 <td><label for="firstname">First Name: *</label></td>
                 <td><input type="text" id="firstname" class="inputform" name="firstname" value="Enter your First Name" required /></td>
-
-
                 <td>
                     <label for="telephone">Telephone: *</label></td>
                 <td><input type="text" id="telephone" class="inputform" name="telephone" placeholder=" Enter your telephone number" size="20" maxlength="20" required /></td>
@@ -260,13 +252,8 @@ catch(PDOException $e)
                 <td><label for="surname">Surname: *</label></td>
                 <td><input type="text" id="surname" class="inputform" name="surname" value="Enter your Surname" required /></td>
             </tr>
-
-
-
-
-
-            <tr><td></td>
-                <td><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
+            <tr>
+                <td colspan="4"><p align="right" ><input id="submit" type="submit" value="Submit" class="submit" /></p></td>
             </tr>
         </table></form>
 
