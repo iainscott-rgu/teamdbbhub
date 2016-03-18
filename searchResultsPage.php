@@ -7,7 +7,7 @@ session_start();
 
 
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <link rel="icon"
           type="image/png"
@@ -22,6 +22,8 @@ session_start();
             type="text/javascript"></script>
     <script type="text/javascript">
         //<![CDATA[
+
+     /*
         var customIcons = {
             restaurant: {
                 icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
@@ -31,7 +33,7 @@ session_start();
             }
         };
 
-
+*/
 
 
         function load(mapreq) {
