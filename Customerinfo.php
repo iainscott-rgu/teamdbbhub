@@ -140,7 +140,7 @@ catch(PDOException $e)
 $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
 $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 try{
-    $st = $conn-> query("SELECT * FROM [B&B] WHERE [bbname] = 'the grange'");
+    $st = $conn-> query("SELECT * FROM [room] WHERE [bbname] = 'the grange'");
     foreach($st->fetchAll() as $row) {
         $newhtml =
             <<<NEWHTML
@@ -152,24 +152,24 @@ try{
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
+<td colspan="2">Room Name: <strong>{$row[roomname]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
+<td colspan="2">Room Description: <strong>{$row[roomdescription]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">Address: <strong>{$row[address]}, {$row[addressline2]}</strong></td>
+<td colspan="2">People room sleeps: <strong>{$row[numberofpeople]}</strong></td>
 </tr>
 <tr>
-<td>Location: <strong>{$row[city]}</strong></td>
-<td>Postcode: <strong>{$row[postcode]}</strong></td>
+<td>Price per/night: <strong>{$row[price]}</strong></td>
+<td>Single Room: <strong>{$row[single]}</strong></td>
 </tr>
 <tr>
-<td>Check-in: <strong>{$row[checkin]}</strong></td>
-<td>Check-out: <strong>{$row[checkout]}</strong></td>
+<td>Double Room: <strong>{$row[double]}</strong></td>
+<td>Family Room: <strong>{$row[family]}</strong></td>
 </tr>
 <tr>
-<td>Pets allowed: <strong>{$row[pets]}</strong></td>
+<td>En-Suite: <strong>{$row[En-Suite]}</strong></td>
 </tr>
 <tr>
 
