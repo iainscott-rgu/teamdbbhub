@@ -393,7 +393,7 @@ NEWHTML;
             <button class="btn" type="submit" >Click to View</button>
         </form>
 
-    <p></p><img src="assets/edinburgh.jpg" id="img2"></p>
+    <p><img src="assets/edinburgh.jpg" id="img2"></p>
     <p>Edinburgh, Scotland</p>
         <form action="searchResultsPage.php" method="POST">
             <input hidden name="location" value='edinburgh'>
