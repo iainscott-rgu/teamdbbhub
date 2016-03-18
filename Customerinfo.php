@@ -174,7 +174,7 @@ try{
 <td colspan="2">People room sleeps: <strong>{$row[numberofpeople]}</strong></td>
 </tr>
 <tr>
-<td>Price per/night: <strong>{$row[price]}</strong></td>
+<td>Price per/night: £<strong>{$row[price]}</strong></td>
 <td>Single Room: <strong>{$row[single]}</strong></td>
 </tr>
 <tr>
