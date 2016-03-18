@@ -470,7 +470,7 @@ ul#tabs li {
 }
 ul#tabs li a {
     /*color: #42454a;*/
-    color: orange;
+    color: #666699;
     background-color: #dedbde;
     border: 1px solid orange;
     border-bottom: none;
