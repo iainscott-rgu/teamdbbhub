@@ -101,19 +101,28 @@ session_start();
 
         <table class="table3">
             <tr><td colspan="3"><p>* Required Fields</p></td>
-
+                </tr>
             <tr>
                 <td><label for="bbname">B&B Name: *</label></td>
-                <td><select id="bbname" class="inputform" name="bbname">
-                        <option value="<?php echo"".$bb ?>"><?php echo"".$bb ?></option></td>
+                <td><select id="bbname" class="inputform" name="bbname"><option value="<?php echo"".$bb ?>"><?php echo"".$bb ?></option></td>
+                <td><label for="nbrofpeople">Room Sleeps: *</label></td>
+                <td><select class="inputform" id="nbrofpeople" name="nbrofpeople">
+                        <option value="">Select Occupant Nbr</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </td>
+            </tr>
 
                             <tr>
                             <td><label for="roomname">Room Name: *</label></td>
                             <td><input type="text" id="roomname" class="inputform" name="roomname" placeholder="Enter Room Name" size="20" maxlength="25" required /></td>
 
-                            <td hidden><label for="bbid">B&B ID: *</label></td>
-                                <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
-                                 </tr>
+                           </tr>
                             <tr>
                                 <td><label for="roomdescription">Room Description: *</label></td>
                                 <td><input type="text" id="roomdescription" class="inputform" name="roomdescription" placeholder="Enter Room Description" size="30" maxlength="50" required /></td>
@@ -121,18 +130,7 @@ session_start();
 
 
 
-                                <td>
-                                    <label for="nbrofpeople">Room Sleeps: *</label></td>
-                                <td><select class="inputform" id="nbrofpeople" name="nbrofpeople">
-                                        <option value="">Select Occupant Nbr</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                    </select>
-                                </td>
+
                             </tr>
                             <tr>
                                 <td><label for="price">Price: *</label></td>
@@ -142,6 +140,8 @@ session_start();
                                 <td>
                                     <label for="imageurl">Image URL: *</label></td>
                                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                                <td hidden><label for="bbid">B&B ID: *</label></td>
+                                <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
 
                             </tr>
                             <tr>
