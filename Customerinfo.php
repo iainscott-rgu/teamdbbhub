@@ -126,7 +126,10 @@ catch(PDOException $e)
 {print"$e";}
 ?>
 
+<section class="spacer" id="spacer">
 
+
+</section>
 
 
 <section class="container" id="content2">
