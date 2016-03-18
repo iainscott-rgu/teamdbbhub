@@ -430,12 +430,7 @@ body{
     float:right;
     margin-right: 50px;
     border: 1px solid #666699;
-    margin-top: 100px;
-
-    /*
-    position: fixed;
-*/
-    overflow:scroll;
+    margin-top: 50px;
 
 }
 
