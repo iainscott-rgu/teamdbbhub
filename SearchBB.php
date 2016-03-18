@@ -391,7 +391,7 @@ NEWHTML;
         <form action="searchResultsPage.php" method="POST">
             <input hidden name="location" value='london'>
             <button class="btn" type="submit" >Click to View</button>
-        </form><p></p>
+        </form><p>&nbsp;</p>
 
     <img src="assets/edinburgh.jpg" id="img2">
     <p>Edinburgh, Scotland</p>
