@@ -95,7 +95,7 @@ try{
 <td width="25%">B&B Name: </td><td><strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td width="25%">B&B Description: </td><td><strong>{$row[bbdescription]}</strong></td>
+<td width="25%">B&B Description: </td><td colspan="3"><strong>{$row[bbdescription]}</strong></td>
 </tr>
 <tr>
 <td width="25%">Address: </td><td><strong>{$row[address]}, {$row[addressline2]}</strong></td>
