@@ -178,7 +178,7 @@ try{
 <td>Room Type: <strong>{$row[roomtype]}</strong></td>
 </tr>
 <tr>
-<td>En-Suite: <strong>{$row[En-Suite]}</strong></td>
+<td>En-Suite: <strong>{$row[ensuite]}</strong></td>
 </tr>
  <tr>
                 <td colspan="4"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
