@@ -163,18 +163,7 @@ try{
 <tr>
 <td>
 
-
-
-
-<div id="viewer">
-<div id="slide">
-
-<td><img src="assets/abzBB1.jpg" id="img4"></td>
-
-</div>
-</div>
-
-
+<td><img src="{$row[imageurl]}" id="img4"></td>
 
 </td>
 <td>
@@ -199,24 +188,16 @@ try{
 </tr>
 <tr>
 
-<div id="thumbs">
-
 <td colspan="2"><p>
 
-<a href="#img4"><img src="assets/abzBB1.jpg" id="imgthumb"></a>
-<a href="#img4"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#img4"><img src="{$row[imageurl]}" id="imgthumb"></a>
-<a href="#img4"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#"><img src="{$row[imageurl]}" id="imgthumb"></a>
 
 <input class="btn3" type="submit" value="SELECT" class="submit" /></p></td>
 
-
-</div>
-
 </tr>
-
-
-
 
 </table>
 </td>
