@@ -204,27 +204,15 @@ try{
 
 <td colspan="2"><p>
 
+<a href="#img1"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#img2"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#img3"><img src="{$row[imageurl]}" id="imgthumb"></a>
+<a href="#img4"><img src="{$row[imageurl]}" id="imgthumb"></a>
 
-
-
-        	<a href="#img1"><img src="assets/bnbthumb.jpg" id="imgthumb"></a>
-            <a href="#img2"><img src="assets/abzBB1.jpg" id="imgthumb"></a>
-            <a href="#img3"><img src="assets/bnbthumb.jpg" id="imgthumb""></a>
-
-
-
-
-
-
-
-<img src="{$row[imageurl]}" id="imgthumb">
-<img src="{$row[imageurl]}" id="imgthumb">
-<img src="{$row[imageurl]}" id="imgthumb">
-<img src="{$row[imageurl]}" id="imgthumb">
 <input class="btn3" type="submit" value="SELECT" class="submit" /></p></td>
 
 
- </div>
+</div>
 
 </tr>
 
