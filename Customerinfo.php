@@ -65,7 +65,7 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Details of your selected B&B...</p>
+        <p>Here are the details of your selected B&B...</p>
     </div>
 </section>
 
@@ -141,7 +141,7 @@ catch(PDOException $e)
 <section class="container" id="featured">
     <div class="centre">
 
-        <p>Available rooms for the dates you have chosen...</p>
+        <p>These are the available rooms for the dates you have chosen...</p>
     </div>
 </section>
 
@@ -175,6 +175,8 @@ try{
 </tr>
 <tr>
 <td>Price per/night: £<strong>{$row[price]}</strong></td>
+</tr>
+<tr>
 <td>Room Type: <strong>{$row[roomtype]}</strong></td>
 </tr>
 <tr>
