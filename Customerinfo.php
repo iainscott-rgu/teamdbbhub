@@ -163,7 +163,7 @@ try{
 <tr>
 <td><img src="{$row[imageurl]}" id="img4"></td>
 <td>
-<table border="1" cellpadding="5">
+<table border="0" cellpadding="5">
 <tr>
 <td width="25%"><strong>Room Name: </strong></td><td>{$row[roomname]}</td>
 </tr>
@@ -183,7 +183,7 @@ try{
 <td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
-<td colspan="2"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
+<td colspan="2"><p><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
 </tr>
 
 
