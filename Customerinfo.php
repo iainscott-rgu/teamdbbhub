@@ -183,7 +183,6 @@ try{
 <td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
-<td width="25%">....</td><td width="50%">....</td>
 <td><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
 </tr>
 
