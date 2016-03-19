@@ -142,7 +142,7 @@ session_start();
                       </tr>
             <tr>
                 <td><label for="price">Price: *</label></td>
-                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price Per\Night" size="20" maxlength="10" required /></td>
+                <td><input type="text" id="price" class="inputform" name="price" placeholder="Enter Price per\night" size="20" maxlength="10" required /></td>
                 <td><label for="imageurl">Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
                 <td hidden><label for="bbid">B&B ID: *</label></td>
