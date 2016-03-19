@@ -161,7 +161,23 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td><img src="{$row[imageurl]}" id="img4"></td>
+<td>
+
+
+
+
+ <div id="viewer">
+        	<div id="slide">
+
+<img id="img1" src="assets/bnbthumb.jpg">
+                <img id="img2" src="assets/bnbthumb.jpg">
+      <img id="img3" src="assets/bnbthumb.jpg">
+            </div>
+        </div>
+
+
+
+</td>
 <td>
 <table border="0" cellpadding="5">
 <tr>
@@ -192,13 +208,9 @@ try{
             <a href="#img2"><img src="assets/bnbthumb.jpg"></a>
             <a href="#img3"><img src="assets/bnbthumb.jpg"></a>
         </div>
-        <div id="viewer">
-        	<div id="slide">
-            	<img id="img1" src="assets/bnbthumb.jpg">
-                <img id="img2" src="assets/bnbthumb.jpg">
-                <img id="img3" src="assets/bnbthumb.jpg">
-            </div>
-        </div>
+
+
+
 
 
 

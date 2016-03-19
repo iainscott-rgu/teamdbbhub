@@ -664,6 +664,7 @@ div.panel.show {
     height: 200px;
 }
 
+/*
 #thumbs { width:110px; float:left; margin-right:31px; }
 #thumbs a { margin-bottom:31px; display:block; }
 #thumbs a img { border:none; }
