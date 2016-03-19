@@ -88,32 +88,32 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
+<td><img src="{$row[imageurl]}" id="img3"></td>
 <td>
 <table border="0" cellpadding="5">
 <tr>
 <td width="25%">B&B Name: </td><td><strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td width="25%">B&B Description: </td><td colspan="3"><strong>{$row[bbdescription]}</strong></td>
+<td width="25%">B&B Description: </td><td colspan="3">{$row[bbdescription]}</td>
 </tr>
 <tr>
-<td width="25%">Address: </td><td colspan="3"><strong>{$row[address]}, {$row[addressline2]}</strong></td>
+<td width="25%">Address: </td><td colspan="3">{$row[address]}, {$row[addressline2]}</td>
 </tr>
 <tr>
-<td width="25%">Location: </td><td><strong>{$row[city]}</strong></td>
-<td width="25%">Postcode: </td><td><strong>{$row[postcode]}</strong></td>
+<td width="25%">Location: </td><td>{$row[city]}</td>
+<td width="25%">Postcode: </td><td>{$row[postcode]}</td>
 </tr>
 <tr>
-<td width="25%">Check-in: </td><td><strong>{$row[checkin]}</strong></td>
-<td width="25%">Check-out: </td><td><strong>{$row[checkout]}</strong></td>
+<td width="25%">Check-in: </td><td>{$row[checkin]}</td>
+<td width="25%">Check-out: </td><td>{$row[checkout]}</td>
 </tr>
 <tr>
-<td width="25%">Pets allowed: </td><td><strong>{$row[pets]}</strong></td>
+<td width="25%">Pets allowed: </td><td>{$row[pets]}</td>
 </tr>
 <tr>
-<td width="25%">Telephone: </td><td><strong>{$row[telephone]}</strong></td>
-<td width="25%">Email: </td><td><strong>{$row[email]}</strong></td>
+<td width="25%">Telephone: </td><td>{$row[telephone]}</td>
+<td width="25%">Email: </td><td>{$row[email]}</td>
 
 </tr>
 
