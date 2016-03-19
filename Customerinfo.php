@@ -92,27 +92,27 @@ try{
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td width="20%"><strong>B&B Name: </strong></td><td colspan="3">{$row[bbname]}</td>
+<td width="25%"><strong>B&B Name: </strong></td><td colspan="3">{$row[bbname]}</td>
 </tr>
 <tr>
-<td width="20%" valign="top"><strong>B&B Description: </strong></td><td colspan="3">{$row[bbdescription]}</td>
+<td width="25%" valign="top"><strong>B&B Description: </strong></td><td colspan="3">{$row[bbdescription]}</td>
 </tr>
 <tr>
-<td width="20%"><strong>Address: </strong></td><td colspan="3">{$row[address]}, {$row[addressline2]}</td>
+<td width="25%"><strong>Address: </strong></td><td colspan="3">{$row[address]}, {$row[addressline2]}</td>
 </tr>
 <tr>
-<td width="20%"><strong>Location: </strong></td><td>{$row[city]}</td>
+<td width="25%"><strong>Location: </strong></td><td>{$row[city]}</td>
 <td width="20%"><strong>Postcode: </strong></td><td>{$row[postcode]}</td>
 </tr>
 <tr>
-<td width="20%"><strong>Check-in: </strong></td><td>{$row[checkin]}</td>
+<td width="25%"><strong>Check-in: </strong></td><td>{$row[checkin]}</td>
 <td width="20%"><strong>Check-out: </strong></td><td>{$row[checkout]}</td>
 </tr>
 <tr>
-<td width="20%"><strong>Pets allowed: </strong></td><td colspan="3">{$row[pets]}</td>
+<td width="25%"><strong>Pets allowed: </strong></td><td colspan="3">{$row[pets]}</td>
 </tr>
 <tr>
-<td width="20%"><strong>Telephone: </strong></td><td>{$row[telephone]}</td>
+<td width="25%"><strong>Telephone: </strong></td><td>{$row[telephone]}</td>
 <td width="20%"><strong>Email Address: </strong></td><td>{$row[email]}</td>
 
 </tr>
