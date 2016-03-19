@@ -102,18 +102,18 @@ try{
 </tr>
 <tr>
 <td width="20%"><strong>Location: </strong></td><td>{$row[city]}</td>
-<td width="15%"><strong>Postcode: </strong></td><td>{$row[postcode]}</td>
+<td width="20%"><strong>Postcode: </strong></td><td>{$row[postcode]}</td>
 </tr>
 <tr>
 <td width="20%"><strong>Check-in: </strong></td><td>{$row[checkin]}</td>
-<td width="15%"><strong>Check-out: </strong></td><td>{$row[checkout]}</td>
+<td width="20%"><strong>Check-out: </strong></td><td>{$row[checkout]}</td>
 </tr>
 <tr>
 <td width="20%"><strong>Pets allowed: </strong></td><td colspan="3">{$row[pets]}</td>
 </tr>
 <tr>
 <td width="20%"><strong>Telephone: </strong></td><td>{$row[telephone]}</td>
-<td width="15%"><strong>Email: </strong></td><td>{$row[email]}</td>
+<td width="20%"><strong>Email Address: </strong></td><td>{$row[email]}</td>
 
 </tr>
 
