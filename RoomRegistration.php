@@ -162,6 +162,61 @@ session_start();
 <section class="container" id="featured">
     <div class="centre">
 
+        <p>Want to add more images?</p>
+    </div>
+</section>
+
+
+<section class="container" id="content2">
+
+
+
+    <form action="bbRoomReviewPage.php" method="POST">
+
+        <table class="table3">
+
+            <tr>
+                <td><label for="bbname">B&B Name: *</label></td>
+                <td><select id="bbname" class="inputform" name="bbname"><option value="<?php echo"".$bb ?>"><?php echo"".$bb ?></option></td>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+            </tr>
+            <tr>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+            </tr>
+            <tr>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+            </tr>
+            <tr>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                <td><label for="imageurl">Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                <td hidden><label for="bbid">B&B ID: *</label></td>
+                <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
+            </tr>
+            <tr>
+                <td colspan="4"><p><input type="submit" value="Submit" class="btn3" /></p></td>
+            </tr>
+        </table></form>
+
+</section>
+<section class="spacer" id="spacer">
+
+
+</section>
+
+
+
+<section class="container" id="featured">
+    <div class="centre">
+
         <p>Need help with the form?</p>
     </div>
 </section>
