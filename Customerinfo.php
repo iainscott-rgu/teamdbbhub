@@ -183,7 +183,12 @@ try{
 <td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
-<td colspan="2"><p><input class="btn3" type="submit" value="SELECT" class="submit" /></p></td>
+<td colspan="2"><p><img src="{$row[imageurl]}" id="imgthumb">
+<img src="{$row[imageurl]}" id="imgthumb">
+<img src="{$row[imageurl]}" id="imgthumb">
+<img src="{$row[imageurl]}" id="imgthumb">
+<img src="{$row[imageurl]}" id="imgthumb">
+<input class="btn3" type="submit" value="SELECT" class="submit" /></p></td>
 </tr>
 
 
