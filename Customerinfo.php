@@ -169,7 +169,7 @@ try{
  <div id="viewer">
         	<div id="slide">
 
-<img id="img1" src="assets/bnbthumb.jpg">
+<img id="img1" src="assets/abzBB1.jpg">
 <img id="img2" src="assets/bnbthumb.jpg">
 <img id="img3" src="assets/bnbthumb.jpg">
 </div>
@@ -208,8 +208,8 @@ try{
 
 
         	<a href="#img1"><img src="assets/bnbthumb.jpg" id="imgthumb"></a>
-            <a href="#img2"><img src="assets/bnbthumb.jpg" id="imgthumb"></a>
-            <a href="#img3"><img src="assets/bnbthumb.jpg id="imgthumb""></a>
+            <a href="#img2"><img src="assets/abzBB1.jpg" id="imgthumb"></a>
+            <a href="#img3"><img src="assets/bnbthumb.jpg" id="imgthumb""></a>
 
 
 
