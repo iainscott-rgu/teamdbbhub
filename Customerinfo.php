@@ -161,7 +161,7 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td><img src="{$row[imageurl]}" id="img3"></td>
+<td><img src="{$row[imageurl]}" id="img4"></td>
 <td>
 <table border="1" cellpadding="5">
 <tr>
