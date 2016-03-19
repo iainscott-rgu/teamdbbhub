@@ -664,3 +664,9 @@ div.panel.show {
     height: 200px;
 }
 
+#thumbs { width:110px; float:left; margin-right:31px; }
+#thumbs a { margin-bottom:31px; display:block; }
+#thumbs a img { border:none; }
+#viewer { width:400px; height:400px; float:left; overflow:hidden; position:relative; border:1px solid #000; }
+#slide { position:absolute; top:0; height:400px; width:1200px; }
+#slide img {float:left; display:inline; }

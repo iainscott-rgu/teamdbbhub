@@ -161,7 +161,7 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td><div id="rightbox"><img src="{$row[imageurl]}" id="img4"></div></td>
+<td><img src="{$row[imageurl]}" id="img4"></td>
 <td>
 <table border="0" cellpadding="5">
 <tr>
@@ -183,8 +183,26 @@ try{
 <td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
-<td colspan="2"><p><img src="{$row[imageurl]}" id="imgthumb">
-<a href="#" target="rightbox"><img src="assets/bnbthumb.jpg" id="imgthumb"></a>
+<td colspan="2"><p>
+
+
+
+<div id="thumbs">
+        	<a href="#img1"><img src="assets/bnbthumb.jpg"></a>
+            <a href="#img2"><img src="assets/bnbthumb.jpg"></a>
+            <a href="#img3"><img src="assets/bnbthumb.jpg"></a>
+        </div>
+        <div id="viewer">
+        	<div id="slide">
+            	<img id="img1" src="assets/bnbthumb.jpg">
+                <img id="img2" src="assets/bnbthumb.jpg">
+                <img id="img3" src="assets/bnbthumb.jpg">
+            </div>
+        </div>
+
+
+
+<img src="{$row[imageurl]}" id="imgthumb">
 <img src="{$row[imageurl]}" id="imgthumb">
 <img src="{$row[imageurl]}" id="imgthumb">
 <img src="{$row[imageurl]}" id="imgthumb">
