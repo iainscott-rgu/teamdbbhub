@@ -165,10 +165,10 @@ try{
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td colspan="2">Room Name: <strong>{$row[roomname]}</strong></td>
+<td>Room Name: </td><td><strong>{$row[roomname]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">Room Description: <strong>{$row[roomdescription]}</strong></td>
+<td>Room Description: </td><td><strong>{$row[roomdescription]}</strong></td>
 </tr>
 <tr>
 <td colspan="2">People room sleeps: <strong>{$row[numberofpeople]}</strong></td>
