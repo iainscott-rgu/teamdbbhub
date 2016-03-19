@@ -81,8 +81,8 @@ session_start();
         $bbid = $_GET['bbid'];
 
         $sesh = $_SESSION['user'];
-        echo "<p>Add Room to <strong>".$bb;
-        echo"</strong></p>"
+        echo "<p>Want to Add a Room to <strong>".$bb;
+        echo"?</strong></p>"
 
 
 
