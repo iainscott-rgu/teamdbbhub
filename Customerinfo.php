@@ -92,28 +92,28 @@ try{
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td colspan="2">B&B Name: <strong>{$row[bbname]}</strong></td>
+<td width="25%">B&B Name: </td><td><strong>{$row[bbname]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">B&B Description: <strong>{$row[bbdescription]}</strong></td>
+<td width="25%">B&B Description: </td><td><strong>{$row[bbdescription]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">Address: <strong>{$row[address]}, {$row[addressline2]}</strong></td>
+<td width="25%">Address: </td><td><strong>{$row[address]}, {$row[addressline2]}</strong></td>
 </tr>
 <tr>
-<td>Location: <strong>{$row[city]}</strong></td>
-<td>Postcode: <strong>{$row[postcode]}</strong></td>
+<td width="25%">Location: </td><td><strong>{$row[city]}</strong></td>
+<td width="25%">Postcode: </td><td><strong>{$row[postcode]}</strong></td>
 </tr>
 <tr>
-<td>Check-in: <strong>{$row[checkin]}</strong></td>
-<td>Check-out: <strong>{$row[checkout]}</strong></td>
+<td width="25%">Check-in: </td><td><strong>{$row[checkin]}</strong></td>
+<td width="25%">Check-out: </td><td><strong>{$row[checkout]}</strong></td>
 </tr>
 <tr>
-<td>Pets allowed: <strong>{$row[pets]}</strong></td>
+<td width="25%">Pets allowed: </td><td><strong>{$row[pets]}</strong></td>
 </tr>
 <tr>
-<td>Telephone: <strong>{$row[telephone]}</strong></td>
-<td>Email: <strong>{$row[email]}</strong></td>
+<td width="25%">Telephone: </td><td><strong>{$row[telephone]}</strong></td>
+<td width="25%">Email: </td><td><strong>{$row[email]}</strong></td>
 
 </tr>
 
@@ -168,23 +168,23 @@ try{
 <td width="25%">Room Name: </td><td><strong>{$row[roomname]}</strong></td>
 </tr>
 <tr>
-<td>Room Description: </td><td><strong>{$row[roomdescription]}</strong></td>
+<td width="25%">Room Description: </td><td><strong>{$row[roomdescription]}</strong></td>
 </tr>
 <tr>
-<td>People room sleeps: </td><td><strong>{$row[numberofpeople]}</strong></td>
+<td width="25%">People room sleeps: </td><td><strong>{$row[numberofpeople]}</strong></td>
 </tr>
 <tr>
-<td>Price per/night: </td><td>£<strong>{$row[price]}</strong></td>
+<td width="25%">Price per/night: </td><td>£<strong>{$row[price]}</strong></td>
 </tr>
 <tr>
-<td>Room Type: </td><td><strong>{$row[roomtype]}</strong></td>
+<td width="25%">Room Type: </td><td><strong>{$row[roomtype]}</strong></td>
 </tr>
 <tr>
-<td>En-Suite: </td><td><strong>{$row[ensuite]}</strong></td>
+<td width="25%">En-Suite: </td><td><strong>{$row[ensuite]}</strong></td>
 </tr>
- <tr>
-                <td colspan="2"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
-            </tr>
+<tr>
+<td colspan="2"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
+</tr>
 
 
 
