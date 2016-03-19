@@ -170,10 +170,10 @@ try{
         	<div id="slide">
 
 <img id="img1" src="assets/bnbthumb.jpg">
-                <img id="img2" src="assets/bnbthumb.jpg">
-      <img id="img3" src="assets/bnbthumb.jpg">
-            </div>
-        </div>
+<img id="img2" src="assets/bnbthumb.jpg">
+<img id="img3" src="assets/bnbthumb.jpg">
+</div>
+</div>
 
 
 
@@ -199,15 +199,18 @@ try{
 <td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
+
+<div id="thumbs">
+
 <td colspan="2"><p>
 
 
 
-<div id="thumbs">
-        	<a href="#img1"><img src="assets/bnbthumb.jpg"></a>
-            <a href="#img2"><img src="assets/bnbthumb.jpg"></a>
-            <a href="#img3"><img src="assets/bnbthumb.jpg"></a>
-        </div>
+
+        	<a href="#img1"><img src="assets/bnbthumb.jpg" id="imgthumb"></a>
+            <a href="#img2"><img src="assets/bnbthumb.jpg" id="imgthumb"></a>
+            <a href="#img3"><img src="assets/bnbthumb.jpg id="imgthumb""></a>
+
 
 
 
@@ -219,6 +222,10 @@ try{
 <img src="{$row[imageurl]}" id="imgthumb">
 <img src="{$row[imageurl]}" id="imgthumb">
 <input class="btn3" type="submit" value="SELECT" class="submit" /></p></td>
+
+
+ </div>
+
 </tr>
 
 
