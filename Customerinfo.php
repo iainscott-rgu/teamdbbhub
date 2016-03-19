@@ -183,7 +183,7 @@ try{
 <td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
-<td><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
+<td colspan="2"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
 </tr>
 
 
