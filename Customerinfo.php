@@ -165,7 +165,7 @@ try{
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td span="25%">Room Name: </td><td><strong>{$row[roomname]}</strong></td>
+<td width="25%">Room Name: </td><td><strong>{$row[roomname]}</strong></td>
 </tr>
 <tr>
 <td>Room Description: </td><td><strong>{$row[roomdescription]}</strong></td>
