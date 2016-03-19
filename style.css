@@ -310,6 +310,17 @@ main{
     height:200px;
 }
 
+#img4{
+
+
+    border: 1px solid orange;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    width:250px;
+    height:250px;
+}
 
 
 #spacer{
