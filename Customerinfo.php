@@ -161,26 +161,26 @@ try{
                         <div class="table6">
 <table border="0" cellpadding="5">
 <tr>
-<td><strong><img src="{$row[imageurl]}" id="img3"></strong></td>
+<td><img src="{$row[imageurl]}" id="img3"></td>
 <td>
 <table border="0" cellpadding="5">
 <tr>
-<td width="25%">Room Name: </td><td><strong>{$row[roomname]}</strong></td>
+<td width="25%"><strong>Room Name: </strong></td><td>{$row[roomname]}</td>
 </tr>
 <tr>
-<td width="25%">Room Description: </td><td><strong>{$row[roomdescription]}</strong></td>
+<td width="25%"><strong>Room Description: </strong></td><td>{$row[roomdescription]}</td>
 </tr>
 <tr>
-<td width="25%">People room sleeps: </td><td><strong>{$row[numberofpeople]}</strong></td>
+<td width="25%"><strong>People room sleeps: </strong></td><td>{$row[numberofpeople]}</td>
 </tr>
 <tr>
-<td width="25%">Price per/night: </td><td>£<strong>{$row[price]}</strong></td>
+<td width="25%"><strong>Price per Night: </strong></td><td>£{$row[price]}</td>
 </tr>
 <tr>
-<td width="25%">Room Type: </td><td><strong>{$row[roomtype]}</strong></td>
+<td width="25%"><strong>Room Type: </strong></td><td>{$row[roomtype]}</td>
 </tr>
 <tr>
-<td width="25%">En-Suite: </td><td><strong>{$row[ensuite]}</strong></td>
+<td width="25%"><strong>En-Suite: </strong></td><td>{$row[ensuite]}</td>
 </tr>
 <tr>
 <td colspan="2"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
