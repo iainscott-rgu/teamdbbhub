@@ -178,25 +178,23 @@ session_start();
             <tr>
                 <td><label for="bbname">B&B Name: *</label></td>
                 <td><select id="bbname" class="inputform" name="bbname"><option value="<?php echo"".$bb ?>"><?php echo"".$bb ?></option></td>
-                <td><label for="imageurl">Image URL: *</label></td>
+                </tr>
+            <tr>
+                <td><label for="imageurl">1st Image URL: *</label></td>
+                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
+                <td><label for="imageurl">4th Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
             </tr>
             <tr>
-                <td><label for="imageurl">Image URL: *</label></td>
+                <td><label for="imageurl">2nd Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
-                <td><label for="imageurl">Image URL: *</label></td>
-                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
-            </tr>
-            <tr>
-                <td><label for="imageurl">Image URL: *</label></td>
-                <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
-                <td><label for="imageurl">Image URL: *</label></td>
+                <td><label for="imageurl">5th Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
             </tr>
             <tr>
-                <td><label for="imageurl">Image URL: *</label></td>
+                <td><label for="imageurl">3rd Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
-                <td><label for="imageurl">Image URL: *</label></td>
+                <td><label for="imageurl">6th Image URL: *</label></td>
                 <td><input type="text" id="imageurl" class="inputform" name="imageurl" placeholder="Enter Image URL" size="30" maxlength="50" required /></td>
                 <td hidden><label for="bbid">B&B ID: *</label></td>
                 <td hidden><input type="text" id="bbid" class="inputform" name="bbid" value="<?php echo"".$bbid ?>" size="20" maxlength="10" readonly /></td>
