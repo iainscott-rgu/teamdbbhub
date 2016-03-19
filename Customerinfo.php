@@ -168,7 +168,7 @@ try{
 <td width="25%"><strong>Room Name: </strong></td><td>{$row[roomname]}</td>
 </tr>
 <tr>
-<td width="25%"><strong>Room Description: </strong></td><td>{$row[roomdescription]}</td>
+<td width="25%" valign="top"><strong>Room Description: </strong></td><td>{$row[roomdescription]}</td>
 </tr>
 <tr>
 <td width="25%"><strong>People room sleeps: </strong></td><td>{$row[numberofpeople]}</td>
