@@ -171,19 +171,19 @@ try{
 <td>Room Description: </td><td><strong>{$row[roomdescription]}</strong></td>
 </tr>
 <tr>
-<td colspan="2">People room sleeps: <strong>{$row[numberofpeople]}</strong></td>
+<td>People room sleeps: </td><td><strong>{$row[numberofpeople]}</strong></td>
 </tr>
 <tr>
-<td>Price per/night: £<strong>{$row[price]}</strong></td>
+<td>Price per/night: </td><td>£<strong>{$row[price]}</strong></td>
 </tr>
 <tr>
-<td>Room Type: <strong>{$row[roomtype]}</strong></td>
+<td>Room Type: </td><td><strong>{$row[roomtype]}</strong></td>
 </tr>
 <tr>
-<td>En-Suite: <strong>{$row[ensuite]}</strong></td>
+<td>En-Suite: </td><td><strong>{$row[ensuite]}</strong></td>
 </tr>
  <tr>
-                <td colspan="4"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
+                <td colspan="2"><p align="right" ><input class="btn2" type="submit" value="SELECT" class="submit" /></p></td>
             </tr>
 
 
