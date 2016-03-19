@@ -175,11 +175,7 @@ try{
 </tr>
 <tr>
 <td>Price per/night: £<strong>{$row[price]}</strong></td>
-<td>Single Room: <strong>{$row[single]}</strong></td>
-</tr>
-<tr>
-<td>Double Room: <strong>{$row[double]}</strong></td>
-<td>Family Room: <strong>{$row[family]}</strong></td>
+<td>Room Type: <strong>{$row[roomtype]}</strong></td>
 </tr>
 <tr>
 <td>En-Suite: <strong>{$row[En-Suite]}</strong></td>
